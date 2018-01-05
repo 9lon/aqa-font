@@ -1,7 +1,9 @@
+<!DOCTYPE html>
+
 <style>
     @font-face {
         font-family: TrirongLight;
-        src: url('./fonts/trirong/Trirong-Light.ttf');
+        src: url('/bower_components/aqa-font/fonts/trirong/Trirong-Light.ttf');
         /* src: url('../fonts/CSChatThaiUI.eot');
         src: url('../fonts/CSChatThaiUI.eot?#iefix') format('eot'),
             url('../fonts/CSChatThaiUI.woff') format('woff'),
@@ -11,11 +13,17 @@
 
     @font-face {
         font-family: TrirongRegular;
-        src: url('./fonts/trirong/Trirong-Regular.ttf');
+        src: url('/bower_components/aqa-font/fonts/trirong/Trirong-Regular.ttf');
     }
 
     @font-face {
         font-family: TrirongMedium;
-        src: url('./fonts/trirong/Trirong-Medium.ttf');
+        src: url('/bower_components/aqa-font/fonts/trirong/Trirong-Medium.ttf');
     }
 </style>
+
+<script>
+    var importDoc = document.currentScript.ownerDocument;
+    var style = importDoc.querySelector('style');
+    document.head.appendChild(style);
+</script>
