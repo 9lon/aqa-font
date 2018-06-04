@@ -1,9 +1,11 @@
-<!DOCTYPE html>
+import '@polymer/polymer/polymer-element.js';
 
-<style>
+const $_documentContainer = document.createElement('template');
+$_documentContainer.innerHTML = `
+    <style>
     @font-face {
         font-family: TrirongLight;
-        src: url('/bower_components/aqa-font/fonts/trirong/Trirong-Light.ttf');
+        src: url('../fonts/trirong/Trirong-Light.ttf');
         /* src: url('../fonts/CSChatThaiUI.eot');
         src: url('../fonts/CSChatThaiUI.eot?#iefix') format('eot'),
             url('../fonts/CSChatThaiUI.woff') format('woff'),
@@ -13,17 +15,13 @@
 
     @font-face {
         font-family: TrirongRegular;
-        src: url('/bower_components/aqa-font/fonts/trirong/Trirong-Regular.ttf');
+        src: url('../fonts/trirong/Trirong-Regular.ttf');
     }
 
     @font-face {
         font-family: TrirongMedium;
-        src: url('/bower_components/aqa-font/fonts/trirong/Trirong-Medium.ttf');
+        src: url('../fonts/trirong/Trirong-Medium.ttf');
     }
-</style>
+    </style>`;
 
-<script>
-    var importDoc = document.currentScript.ownerDocument;
-    var style = importDoc.querySelector('style');
-    document.head.appendChild(style);
-</script>
+document.head.appendChild($_documentContainer.content);
