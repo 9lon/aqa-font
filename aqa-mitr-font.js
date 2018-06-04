@@ -15,29 +15,29 @@ $_documentContainer.innerHTML = `
 <style>
 @font-face {
     font-family: MitrBold;
-    src: url('../fonts/mitr/Mitr-Bold.ttf');
+    src: url('/node_modules/@aqa/aqa-font/fontsfonts/mitr/Mitr-Bold.ttf');
 }
 @font-face {
     font-family: MitrExtraLight;
-    src: url('../fonts/mitr/Mitr-ExtraLight.ttf');
+    src: url('/node_modules/@aqa/aqa-font/fontsfonts/mitr/Mitr-ExtraLight.ttf');
 }
 @font-face {
     font-family: MitrLight;
-    src: url('../fonts/mitr/Mitr-Light.ttf');
+    src: url('/node_modules/@aqa/aqa-font/fontsfonts/mitr/Mitr-Light.ttf');
 }
 
 @font-face {
     font-family: MitrMedium;
-    src: url('../fonts/mitr/Mitr-Medium.ttf');
+    src: url('/node_modules/@aqa/aqa-font/fontsfonts/mitr/Mitr-Medium.ttf');
 }
 
 @font-face {
     font-family: MitrRegular;
-    src: url('../fonts/mitr/Mitr-Regular.ttf');
+    src: url('/node_modules/@aqa/aqa-font/fontsfonts/mitr/Mitr-Regular.ttf');
 }
 @font-face {
     font-family: MitrSemiBold;
-    src: url('../fonts/mitr/Mitr-SemiBold.ttf');
+    src: url('/node_modules/@aqa/aqa-font/fontsfonts/mitr/Mitr-SemiBold.ttf');
 }
 </style>`;
 
