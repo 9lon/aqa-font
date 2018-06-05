@@ -5,22 +5,22 @@ $_documentContainer.innerHTML = `
     <style>
     @font-face {
         font-family: TrirongLight;
-        src: url('/node_modules/@aqa/aqa-font/fontsfonts/trirong/Trirong-Light.ttf');
-        /* src: url('/node_modules/@aqa/aqa-font/fontsfonts/CSChatThaiUI.eot');
-        src: url('/node_modules/@aqa/aqa-font/fontsfonts/CSChatThaiUI.eot?#iefix') format('eot'),
-            url('/node_modules/@aqa/aqa-font/fontsfonts/CSChatThaiUI.woff') format('woff'),
-            url('/node_modules/@aqa/aqa-font/fontsfonts/CSChatThaiUI.ttf') format('truetype'),
-            url('/node_modules/@aqa/aqa-font/fontsfonts/CSChatThaiUI.svg') format('svg'); */
+        src: url('/node_modules/@nylon/aqa-font/fonts/trirong/Trirong-Light.ttf');
+        /* src: url('/node_modules/@nylon/aqa-font/fonts/CSChatThaiUI.eot');
+        src: url('/node_modules/@nylon/aqa-font/fonts/CSChatThaiUI.eot?#iefix') format('eot'),
+            url('/node_modules/@nylon/aqa-font/fonts/CSChatThaiUI.woff') format('woff'),
+            url('/node_modules/@nylon/aqa-font/fonts/CSChatThaiUI.ttf') format('truetype'),
+            url('/node_modules/@nylon/aqa-font/fonts/CSChatThaiUI.svg') format('svg'); */
     }
 
     @font-face {
         font-family: TrirongRegular;
-        src: url('/node_modules/@aqa/aqa-font/fontsfonts/trirong/Trirong-Regular.ttf');
+        src: url('/node_modules/@nylon/aqa-font/fonts/trirong/Trirong-Regular.ttf');
     }
 
     @font-face {
         font-family: TrirongMedium;
-        src: url('/node_modules/@aqa/aqa-font/fontsfonts/trirong/Trirong-Medium.ttf');
+        src: url('/node_modules/@nylon/aqa-font/fonts/trirong/Trirong-Medium.ttf');
     }
     </style>`;
 
